@@ -41,7 +41,7 @@ public class DeliciousMeals extends AppCompatActivity {
         });
 
         Intent intent = getIntent();
-        String location = intent.getStringExtra("location");
-        mLocationTextView.setText("Place Your Favorite Meals: " + location);
+        String meal = intent.getStringExtra("meal");
+        mLocationTextView.setText("Place Your Favorite Meals: " + meal);
     }
 }
