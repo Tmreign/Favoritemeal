@@ -20,7 +20,7 @@ public class DeliciousMeals extends AppCompatActivity {
             "Fried Round Steak", "Chicken Florentine Pasta", "Roasted Red Pepper Pasta", "Pepperoni Pizza Burgers",
             "Slappy Cakes", "Equinox", "Miss Delta's", "Andina",
             "Lardo", "Portland City Grill", "Fat Head's Brewery",
-            "Chipotle", "Subway"};
+            "Chipotle", "Chicken Bacon"};
 
 
     @Override

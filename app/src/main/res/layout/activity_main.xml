@@ -38,9 +38,12 @@
         android:layout_above="@+id/mealsButton"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="26dp"
+        android:background="#000C0C0C"
         android:hint="Enter meal"
         android:padding="5dp"
-        android:textColor="#00110B0B" />
+        android:textColor="#000000"
+        android:textColorHint="#000"
+        android:textColorLink="#00DF6666" />
 
     <Button
         android:id="@+id/mealsButton"
@@ -54,6 +57,6 @@
         android:layout_marginBottom="17dp"
         android:background="#3D3638"
         android:text="Place Meal"
-        android:textColor="#00181717" />
+        android:textColor="#fff" />
 
 </RelativeLayout>
