@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if(v == mealsButton) {
-            String location = mLocationEditText.getText().toString();
+            String meal = mLocationEditText.getText().toString();
             Intent intent = new Intent(MainActivity.this, DeliciousMeals.class);
-            intent.putExtra("location", location);
+            intent.putExtra("meal", meal);
             startActivity(intent);
         }
     }
