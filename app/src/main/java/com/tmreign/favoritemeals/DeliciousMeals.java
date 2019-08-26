@@ -16,8 +16,8 @@ import butterknife.ButterKnife;
 public class DeliciousMeals extends AppCompatActivity {
     @BindView(R.id.listView)ListView mListView;
     @BindView(R.id.locationTextView) TextView mLocationTextView;
-    private String[] meals = new String[] {"Mi Mero Mole", "Mother's Bistro",
-            "Life of Pie", "Screen Door", "Luc Lac", "Sweet Basil",
+    private String[] meals = new String[] {"Beef and Bean Burritos", "Shrimp Scampi",
+            "Fried Round Steak", "Screen Door", "Luc Lac", "Sweet Basil",
             "Slappy Cakes", "Equinox", "Miss Delta's", "Andina",
             "Lardo", "Portland City Grill", "Fat Head's Brewery",
             "Chipotle", "Subway"};
